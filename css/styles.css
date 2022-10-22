@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+body {
+    font-family: 'Nanum Gothic Coding', monospace;
+    background: linear-gradient(113.49deg, #e70707 -30.3%, hwb(0 0% 100%) 58.12%) no-repeat;
+    font-weight: 1000;
+}
+.header {
+    max-width: 1197px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px 10px 110px 10px;
+    
+}
+.header__logo {
+    display: block;
+    width: 140px;
+    height: 40px;
+    background-image: url(../imeges/logo.gif);
+    background-repeat: round;
+    
+}
+.form {
+    position: relative;
+}
+.from__button {
+    display: block;
+    width: 38px;
+    height: 25px;
+    background-image: url(../imeges/search.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: calc(50% -10px);
+    left: calc(50% -10px);
+    
+
+} 
+    .from__input {
+        width: 384px;
+        background: rgb(255, 255, 058.12%); 
+        border-radius: 10px;
+        border: none; 
+        padding: 10px 40px;
+        color: darkmagenta;
+
+    }
+    .from__input::placeholder {
+        color: darkmagenta;
+    }
+    .form__input:focus {
+        outline: none;
+    }
+.header__list {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+.header__link {
+    color: green;
+    text-decoration: none;
+}
+.header__link__gradient__audio {
+    background: linear-gradient(214.2deg, green 6.04%, red 92.95%);
+    border-radius: 10px;
+    padding: 10px 20px;
+    
+}
+.header__link__gradient__audio::href {
+
+}
+
+   
